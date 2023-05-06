@@ -1,0 +1,52 @@
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+.form-group > * {
+    flex: 1 0 30%;
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+input[type="text" i] {
+  padding: 1px 2px;
+  font-size: 20px;
+  flex-wrap: wrap;
+  height: 25px
+
+}
+select:not(:-internal-list-box) {
+  font-size: 20px;
+  height: 25px
+}
+input[type="number" i] {
+  padding: 1px 2px;
+  font-size: 20px;
+  height: 25px
+}
+select {
+  width: 15pc;
+    height: 30px
+}
+input[type="email" i] {
+  padding: 1px 2px;
+  font-size: 20px;
+  height: 25px
+
+}
+.MuiAutocomplete-hasPopupIcon.MuiAutocomplete-hasClearIcon .MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] {
+  padding-right: 65px;
+  width: 20pc;
+  font-size: 20px;
+  border-radius: 0px;
+  height: 35px
+}
+.MuiInputLabel-outlined {
+  z-index: 1;
+  transform: translate(14px, 20px) scale(1);
+  pointer-events: none;
+  margin-top: -10px;
+}
+.MuiAutocomplete-inputRoot[class*="MuiOutlinedInput-root"] .MuiAutocomplete-input {
+  padding: 9.5px 4px;
+  margin-top: -10px;
+}

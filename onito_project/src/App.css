@@ -1,0 +1,71 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+form{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
+input{
+  margin-top: 40px !important;
+  margin-right: 50px !important;
+  margin-bottom: 20px !important;
+  height: 2pc !important;
+}
+h4{
+  text-decoration: underline;
+}
+.btn-text-right{
+	text-align: right;
+}
+.btn-primary{
+  margin-right: 20px;
+}
+.mandatory-message {
+  display: none;
+  color: red;
+  margin-top: 10px;
+}
+.css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root{
+  height: 60px !important;
+  margin-bottom: 20px !important;
+}
+.MuiAutocomplete-hasPopupIcon.css-1h51icj-MuiAutocomplete-root .MuiOutlinedInput-root, .MuiAutocomplete-hasClearIcon.css-1h51icj-MuiAutocomplete-root .MuiOutlinedInput-root {  
+  height: 50px !important;
+  margin-top: 30px;
+}
